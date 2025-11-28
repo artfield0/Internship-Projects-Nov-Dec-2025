@@ -1,112 +1,96 @@
+Here is your **updated main README.md** including **Task 1, Task 2, Task 3, and Task 4**, formatted professionally for GitHub, with clean sections and organized content.
 
-### **Task 1 – Caesar Cipher Encryption Tool**
-
-This program implements a simple **Caesar Cipher**, one of the earliest and most basic encryption techniques. It works by shifting each letter in the input text by a fixed number of positions in the alphabet.
-
----
-
-## 🔐 **Features**
-
-* Encrypts text using a shift key
-* Decrypts encrypted text
-* Preserves alphabet case (upper/lower)
-* Ignores non-alphabet characters
-* Simple logic ideal for learning cryptography basics
-
----
-
-## ▶️ **How to Run**
-
-### **Encrypt**
+You can copy-paste this into your main `README.md` at:
 
 ```
-python3 caesar_cipher.py --encrypt "HELLO" --shift 3
-```
-
-### **Decrypt**
-
-```
-python3 caesar_cipher.py --decrypt "KHOOR" --shift 3
-```
-
-*(If your implementation uses input prompts, adjust accordingly.)*
-
----
-
-## 📌 **Example**
-
-Input:
-
-```
-HELLO
-Shift: 3
-```
-
-Output:
-
-```
-KHOOR
+Internship-Projects-Nov-Dec-2025/README.md
 ```
 
 ---
 
-## 📁 **Project Structure**
+# 🌐 **Internship Projects – Nov–Dec 2025**
 
-```
-Task1-Caesar-Cipher/
-├── caesar_cipher.py
-└── README.md
-```
-
----
-
-# 📄 **Main Repository README.md**
-
-
-
----
-
-# **Internship Projects – Nov–Dec 2025**
-
-This repository contains multiple cybersecurity and cryptography-related tasks completed as part of my internship program.
-Each task is stored in its own directory with clean code and documentation.
+This repository contains all projects completed during my Internship Program (Nov–Dec 2025).
+Each task is organized into its own folder with complete code, documentation, and usage instructions.
 
 ---
 
 # 📘 **Tasks Overview**
 
-## **🟦 Task 1 – Caesar Cipher Encryption Tool**
+Below is a summary of all tasks completed (Task 1 to Task 4):
 
-A simple cryptographic program that encrypts and decrypts messages using a classical Caesar Cipher technique.
+---
 
-### 🔑 Key Features
+# 🟦 **Task 1 – Caesar Cipher Encryption Tool**
 
-* Letter shifting encryption
-* Decryption support
-* Preserves case
-* Ignores symbols
+A simple cryptographic program that encrypts or decrypts text using the Caesar Cipher, one of the oldest and simplest encryption techniques.
+
+### 🔑 Features
+
+* Shifts characters by a key value
+* Preserves upper/lowercase
+* Ignores non-alphabet characters
+* Includes encryption and decryption
 
 📁 Folder: `Task1-Caesar-Cipher/`
-📄 Includes: `caesar_cipher.py`, `README.md`
+📄 Contains: `caesar_cipher.py` & README
 
 ---
 
-## **🟩 Task 2 – Image Encryption Tool**
+# 🟩 **Task 2 – Image Encryption Tool**
 
-A basic **image encryption and decryption tool** using pixel manipulation techniques.
-Supports:
+A basic image encryption and decryption tool using pixel manipulation.
+Uses OpenCV to perform:
 
-* Channel swapping (R ↔ B)
+### 🔐 Features
+
+* Swapping of RGB channels
 * Arithmetic encryption using a key
-* Works on JPG, PNG files
-* Includes sample images
+* Decryption restores image
+* Supports PNG/JPG
+* Includes sample image
 
 📁 Folder: `Task2-Image-Encryption-Tool/`
-📄 Includes: `encrypt.py`, `decrypt.py`, `utils.py`, sample images
+📄 Contains: `encrypt.py`, `decrypt.py`, `utils.py`, `sample-images/`
 
 ---
 
-# 📦 **Repository Structure**
+# 🟧 **Task 3 – Password Strength Assessment Tool**
+
+A password strength checker that evaluates a password based on standard security criteria.
+
+### 🔎 Checks Include:
+
+* Length >= 8
+* Uppercase letters
+* Lowercase letters
+* Numbers
+* Special characters
+* Overall score & strength rating
+
+📁 Folder: `Task3-Password-Strength-Tool/`
+📄 Contains: `password_strength.py`, README
+
+---
+
+# 🟥 **Task 4 – Keylogger (Educational Use Only)**
+
+A basic keylogger built using Python's `pynput` library, created strictly for educational purposes to learn about how keylogging works in cybersecurity.
+
+### 📝 Features
+
+* Records every key pressed
+* Saves logs to `keylogs.txt`
+* Timestamps each logging session
+* Stops logging when **ESC** key is pressed
+* Demonstrates monitoring/detection concepts
+
+📁 Folder: `Task4-Keylogger/`
+📄 Contains: `keylogger.py`, `keylogs.txt`, README
+
+---
+
+# 📂 **Repository Structure**
 
 ```
 Internship-Projects-Nov-Dec-2025/
@@ -120,9 +104,17 @@ Internship-Projects-Nov-Dec-2025/
 │     ├── decrypt.py
 │     ├── utils.py
 │     └── sample-images/
-│           └── image1.jpg
 │
-└── README.md  (this file)
+├── Task3-Password-Strength-Tool/
+│     ├── password_strength.py
+│     └── README.md
+│
+├── Task4-Keylogger/
+│     ├── keylogger.py
+│     ├── keylogs.txt
+│     └── README.md
+│
+└── README.md   ← (This file)
 ```
 
 ---
@@ -131,6 +123,7 @@ Internship-Projects-Nov-Dec-2025/
 
 * Python
 * OpenCV
-* Basic cryptography techniques
-* Pixel manipulation and image processing
-* Git & GitHub version control
+* Regular Expressions
+* Pynput Library
+* Git & GitHub
+
