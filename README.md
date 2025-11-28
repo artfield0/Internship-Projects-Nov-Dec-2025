@@ -1,16 +1,8 @@
-Here is your **updated main README.md** including **Task 1, Task 2, Task 3, and Task 4**, formatted professionally for GitHub, with clean sections and organized content.
 
-You can copy-paste this into your main `README.md` at:
 
-```
-Internship-Projects-Nov-Dec-2025/README.md
-```
+# 🌐 **SkillCraft Technology Internship Projects – Nov–Dec 2025**
 
----
-
-# 🌐 **Internship Projects – Nov–Dec 2025**
-
-This repository contains all projects completed during my Internship Program (Nov–Dec 2025).
+This repository contains all projects completed during my Internship Program (Nov–Dec 2025) at SkillCraft Technology.
 Each task is organized into its own folder with complete code, documentation, and usage instructions.
 
 ---
