@@ -1,22 +1,3 @@
-Great! Since your repository is now clean and working perfectly, I’ll create:
-
-### ✅ a **README.md inside Task1-Caesar-Cipher**
-
-### ✅ and a **proper main README.md** that includes Task 1 and Task 2 descriptions
-
-Both will be formatted clean, professional, and suitable for your internship documentation + LinkedIn showcase.
-
----
-
-# 📄 **Task1-Caesar-Cipher/README.md**
-
-Copy this into:
-
-```
-Task1-Caesar-Cipher/README.md
-```
-
----
 
 ### **Task 1 – Caesar Cipher Encryption Tool**
 
@@ -81,7 +62,7 @@ Task1-Caesar-Cipher/
 
 # 📄 **Main Repository README.md**
 
-Replace your current `README.md` at the root with this improved version:
+
 
 ---
 
