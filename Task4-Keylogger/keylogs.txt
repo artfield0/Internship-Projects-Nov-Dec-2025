@@ -1,0 +1,4 @@
+
+--- New Logging Session: 2025-11-28 13:15:16.776912 ---
+sthis [Key.space] is [Key.space] a [Key.space] keylogger [Key.space] activity [Key.enter]  [Key.backspace]  [Key.esc] 
+--- Session Ended ---
